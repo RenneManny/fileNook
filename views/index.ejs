@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FileNook</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <!-- Navbar -->
+    <%-include('partials/navbar') %>
+
+      <!-- header -->
+      <header>
+        <div class="container pos" id="home">
+          <div class="text">
+            <h1 class="main-heading">Welcome to fileNook</h1>
+            <p>
+              "Discover the freedom to store, organize, and cherish your
+              memories with ease. fileNook's secure cloud ensures that your
+              precious moments are not just preserved but empowered, offering
+              peace of mind and accessibility whenever you need it. "
+            </p>
+            <a href="/users/register" class="signup">Sign Up </a>
+          </div>
+        </div>
+      </header>
+      <!-- section start -->
+      <section class="gallery">
+        <div class="container">
+          <div class="sec1">
+            <h2 class="memories">"Memories in Focus"</h2>
+          </div>
+          <div class="flex flex1">
+            <div class="width">
+              <img src="../images/vaction1.jpg" alt="" />
+            </div>
+            <div class="width">
+              <h2>Cherished Moments</h2>
+              <p>
+                At <span>fileNook</span>, we understand the importance of
+                preserving life's most precious moments. Whether it's a
+                spontaneous adventure, a heartfelt reunion, or a quiet moment of
+                reflection, every snapshot holds the potential to become a
+                cherished memory.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex2">
+            <div class="width">
+              <h2>Gathering of Joy</h2>
+              <p>
+                In the heart of bustling life, amidst the chatter and laughter,
+                lies a scene of pure joy and connection. In our photo, friends
+                and family gather, sharing stories, laughter, and love. Each
+                smile is a testament to the bonds that tie us together,
+                transcending time and distance
+              </p>
+            </div>
+            <div class="width">
+              <img src="../images/vaction2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="flex flex3">
+            <div class="width">
+              <img src="../images/vaction3.jpg" alt="" />
+            </div>
+            <div class="width">
+              <h2>Golden Memories: A Reunion at Camp Sunshine</h2>
+              <p>
+                In the heart of the wilderness, amidst towering pines and beside
+                the glistening lake, lies Camp Sunshine. This haven has been a
+                retreat for generations, a place where memories are woven like
+                threads in a tapestry of life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faetures -->
+      <section class="features" id="features">
+        <div class="container text">
+          <h2>Unlock the Power of Our Platform</h2>
+          <div class="flex">
+            <div class="card width">
+              <div class="pad">
+                <img src="./images/cross-platform.png" alt="">
+                <div class="txt">
+                  <h4>Cross-Platform</h4>
+                  <p>
+                    Our platform ensures seamless compatibility across all devices and operating systems, providing a
+                    consistent user experience anytime, anywhere..</p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="card width">
+              <div class="pad">
+                <img src="./images/access.png" alt="">
+                <div class="txt">
+                  <h4>Access Anywhere, Anytime</h4>
+                  <p>Experience freedom with our 'Access Anywhere, Anytime' feature. Access your files from anywhere
+                    with an internet connection.</p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="card width">
+              <div class="pad">
+                <img src="./images/encryption.png" alt="">
+                <div class="txt">
+                  <h4>Data Encryption</h4>
+                  <p>Unlocking the power of bcrypt encryption, our platform fortifies your data fortress, shielding it
+                    from prying eyes with unparalleled strength</p>
+                </div>
+              </div>
+
+              <!-- <div class="card"></div>
+            <div class="card"></div> -->
+            </div>
+            <div class="card width">
+              <div class="pad">
+                <img src="./images/tag.png" alt="">
+                <div class="txt">
+                  <h4>Free Storage</h4>
+                  <p>Experience the advantage of free storage on our platform, ensuring secure, reliable, and effortless
+                    access to your important files and documents</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <a href="/users/register" class="signup">Sign Up </a>
+
+
+      </section>
+      <!-- faq -->
+      <section class="faq" id="faq">
+        <h3 class="text">FAQ's</h3>
+        <div class="container">
+          
+          <div class="faq_main_container ">
+            <div class="faq_container">
+              <div class="faq_question text">
+                <div class="faq_question-text">
+                  <h3>How do I create an account on FileNook?</h3>
+                </div>
+                <div class="icon">
+                  <div class="icon-shape"></div>
+                </div>
+              </div>
+              <div class="answercont">
+                <div class="answer">
+                  <p>
+                    To create an account on FileNook, click on the "Sign Up" button on the homepage. Fill in your personal information, including your email address and a password. Once you submit the form, you will redirected to login page .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="faq_container">
+              <div class="faq_question">
+                <div class="faq_question-text">
+                  <h3>How can I upload documents to FileNook?</h3>
+                </div>
+                <div class="icon">
+                  <div class="icon-shape"></div>
+                </div>
+              </div>
+              <div class="answercont">
+                <div class="answer">
+                  <p>
+                    After logging into your FileNook account, navigate to the "Upload" section. Click the "Choose File" button to select the document from your device that you want to upload. Once selected, click the "Upload" button. Your document will be securely uploaded to your FileNook account.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq_container">
+              <div class="faq_question">
+                <div class="faq_question-text">
+                  <h3> Is my data secure on FileNook?</h3>
+                </div>
+                <div class="icon">
+                  <div class="icon-shape"></div>
+                </div>
+              </div>
+              <div class="answercont">
+                <div class="answer">
+                  <p>
+                    Yes, your data is secure on FileNook. We use industry-standard encryption methods, including bcrypt, to protect your passwords and sensitive information. Additionally, all files uploaded to FileNook are encrypted both in transit and at rest.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="faq_container">
+              <div class="faq_question">
+                <div class="faq_question-text">
+                  <h3>Can I access my documents from any device?</h3>
+                </div>
+                <div class="icon">
+                  <div class="icon-shape"></div>
+                </div>
+              </div>
+              <div class="answercont">
+                <div class="answer">
+                  <p>
+                    Yes, you can access your documents from any device with an internet connection. Simply log in to your FileNook account through a web browser on your computer, tablet, or smartphone, and you will have access to all your uploaded documents.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="faq_container">
+              <div class="faq_question">
+                <div class="faq_question-text">
+                  <h3>Can I share my documents with others?</h3>
+                </div>
+                <div class="icon">
+                  <div class="icon-shape"></div>
+                </div>
+              </div>
+              <div class="answercont">
+                <div class="answer">
+                  <p>
+                    No, currently FileNook does not support the feature to share documents with others directly. However, you can download your documents and share them via email or other file-sharing services. We are constantly working on improving our platform and may add this feature in the future.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="mailto:abhikapoor661@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-contact">
+            <h4>Contact Me</h4>
+            <p>Email: <a href="mailto:abhikapoor661@gmail.com">abhikapoor661@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <h4>Follow Me</h4>
+            <div>
+                <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-personal">
+            <h4>About Me</h4>
+            <img src="path/to/your-photo.jpg" alt="akhil" class="personal-photo">
+            <p>Hi, I'm Akhil, the creator of FileNook. I am passionate about web development,software development &data security. Feel free to reach out and connect with me on social media!</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 FileNook. All rights reserved.</p>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/gh/RS-Eagle/eagleanimation/waveSplit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/RS-Eagle/eagleanimation/main.min.js"></script>
+  <script src="../javascripts/main.js"></script>
+</body>
+
+</html>
